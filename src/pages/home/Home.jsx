@@ -5,6 +5,7 @@ import Header from '../../component/Header/Header'
 import Featured from '../../component/featured/Featured'
 import PropertyList from '../../component/propertyList/PropertyList'
 import FeaturedProperties from '../../component/featuredProperties/FeaturedProperties'
+import MailList from '../../component/mailList/MailList'
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
         <PropertyList/>
         <h1 className="homeTitle">Home guests love</h1>
         <FeaturedProperties/>
+        <MailList/>
       </div>
     </div>
   )
