@@ -1,9 +1,12 @@
 import React from 'react'
+import Header from '../../component/Header/Header'
+import Navbar from '../../component/Navbar/Navbar'
 
 function List() {
   return (
     <div>
-      <h1>Hotels</h1>
+      <Navbar/>
+      <Header/>
     </div>
   )
 }
